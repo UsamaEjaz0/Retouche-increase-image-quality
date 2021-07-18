@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import '/models.dart';
-import '/utils/utils.dart' as imageUtils;
+import '../models.dart';
+import '../utils/utils.dart' as imageUtils;
 
 int clampPixel(int x) => x.clamp(0, 255);
 RGBA saturation(RGBA color, num saturation) {

@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import '/filters/filters.dart';
+import '../filters/filters.dart';
 
 ///The [ImageSubFilter] class is the abstract class to define any ImageSubFilter.
 mixin ImageSubFilter on SubFilter {

@@ -3,12 +3,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
-import '/filters/subfilters.dart';
-import '/photofilters.dart';
+import 'filters/filters.dart';
+import 'filters/preset_filters.dart';
+import 'filters/subfilters.dart';
 import 'package:image/image.dart' as imageLib;
 import 'package:image_picker/image_picker.dart';
-import '/filters/image_filters.dart';
-import '/utils/convolution_kernels.dart';
+import 'filters/image_filters.dart';
+import 'widgets/photo_filter.dart';
 
 void main() => runApp(new MaterialApp(home: MyApp()));
 

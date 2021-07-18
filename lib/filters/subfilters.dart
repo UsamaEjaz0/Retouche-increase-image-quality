@@ -1,10 +1,11 @@
 import 'dart:typed_data';
-import '/filters/color_filters.dart';
-import '/filters/image_filters.dart';
-import '/models.dart';
-import '/utils/convolution_kernels.dart';
-import '/utils/image_filter_utils.dart' as image_filter_utils;
-import '/utils/color_filter_utils.dart' as color_filter_utils;
+import 'color_filters.dart';
+import 'image_filters.dart';
+import '../models.dart';
+import '../utils/convolution_kernels.dart';
+import '../utils/image_filter_utils.dart' as image_filter_utils;
+import '../utils/color_filter_utils.dart' as color_filter_utils;
+import 'image_filters.dart';
 
 ///The [ContrastSubFilter] class is a SubFilter class to apply [contrast] to an image.
 class ContrastSubFilter extends ColorSubFilter with ImageSubFilter {

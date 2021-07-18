@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import '/filters/filters.dart';
-import '/models.dart';
+import '../filters/filters.dart';
+import '../models.dart';
 
 ///The [ColorSubFilter] class is the abstract class to define any ColorSubFilter.
 abstract class ColorSubFilter extends SubFilter {

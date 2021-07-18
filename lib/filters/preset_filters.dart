@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
-import '/filters/color_filters.dart';
-import '/filters/filters.dart';
-import '/filters/subfilters.dart';
+import '../filters/color_filters.dart';
+import '../filters/filters.dart';
+import '../filters/subfilters.dart';
 
 // NoFilter: No filter
 class NoFilter extends ColorFilter {

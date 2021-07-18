@@ -1,6 +1,6 @@
-import '/filters/image_filters.dart';
-import '/filters/subfilters.dart';
-import '/utils/convolution_kernels.dart';
+import '../filters/image_filters.dart';
+import '../filters/subfilters.dart';
+import '../utils/convolution_kernels.dart';
 
 var presetConvolutionFiltersList = [
   new ImageFilter(name: "Identity")
